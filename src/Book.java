@@ -13,7 +13,7 @@ public class Book {
         return bookName;
     }
     public String getAuthor() {
-        return author.fullName();
+        return author.getFullName();
     }
 
     public void setPublishedYear(int publishedYear) {
